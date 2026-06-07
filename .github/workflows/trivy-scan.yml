@@ -2,9 +2,9 @@ name: Trivy Security Scan
 
 on:
   push:
-    branches: [main]
+    branches: [main, WIP]
   pull_request:
-    branches: [main]
+    branches: [main, WIP]
   schedule:
     - cron: '0 6 * * 1'
   workflow_dispatch:
